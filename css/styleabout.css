@@ -24,3 +24,15 @@ h3 {
 .email-link:hover {
   text-decoration: underline;
 }
+@media(max-width: 576px){
+  h1{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  img{
+    margin-bottom: 20px;
+  }
+  
+}

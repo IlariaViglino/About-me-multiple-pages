@@ -117,3 +117,23 @@ p {
   box-shadow: var(--box-shadow);
   color: white;
 }
+
+@media(max-width: 576px){
+  h1{
+    font-size: 50px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  h2{
+    font-size: 30px;
+  }
+  .launch-buttons{
+    display: block;
+    text-align: center !important;
+    margin: 0 20px;
+  }
+  #weather-app-title{
+    text-align: center;
+  }
+}
